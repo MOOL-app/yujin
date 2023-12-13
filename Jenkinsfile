@@ -50,7 +50,7 @@ pipeline {
             steps {
                 script {
                     // Docker 컨테이너 실행
-                    sh 'docker run -p 8080:8080 -d --name=spring-boot-server julia2039/springboot:1.0'
+                    sh 'docker run -p 8081:8080 -d --name=spring-boot-server julia2039/springboot:1.0'
                 }
             }
         }
